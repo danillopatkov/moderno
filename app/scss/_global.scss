@@ -32,7 +32,7 @@ li {
 }
 
 body {
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto-Regular', sans-serif;
     font-weight: 15px;
     line-height: 24px;
     color: $text;
@@ -94,6 +94,8 @@ page__content {
 .breadcrumbs {
     &__inner {
         padding: 45px 0px 40px;
+        overflow: hidden;
+        width: 1200px;
     }
 
     &__list {
@@ -138,4 +140,8 @@ page__content {
         color: $green;
         font-size: 14px;
     }
+}
+
+#modal {
+    display: none;
 }
